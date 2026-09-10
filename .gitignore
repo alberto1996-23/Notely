@@ -1,1 +1,10 @@
-.env
+.env*
+!.env.example
+node_modules/
+.next/
+*.tsbuildinfo
+.DS_Store
+# User notes stay local; the teaching example is versioned.
+notes/*.md
+!notes/welcome.md
+notes/.*.tmp
